@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yayoi - Japanese Restaurant</title>
+
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="./CSS/media.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="./CSS/animate.css">
+</head>
+
+<body>
+
+    <!-- Start Header -->
+    <header id="header">
+        <div class="container header-container">
+            <a href="#" class="logo">
+                <img src="./images/SVG/logo.svg" alt="logo">
+
+                <span class="logo-brand">Yayoi</span>
+            </a>
+
+            <div class="header-inner">
+                <a href="#" class="brand">Yayoi</a>
+
+                <nav id="nav">
+                    <ul>
+                        <li>
+                            <span class="log-sec-toggle"><i class="fa-solid fa-circle-user"></i> Log In</span>
+                        </li>
+                        <li class="nav-mid nav-item">
+                            <a href="./menu.html" class="nav-link">MENU</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="./reservation.html" class="nav-link">RESERVATION</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+
+            <button id="nav-menu-toggle-btn">
+                <img src="./images/SVG/menu-bar.svg" alt="menu-bar">
+            </button>
+
+            <button id="mob-menu-toggle-btn">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </div>
+    </header>
+    <!-- End Header -->
+
+
+    <div class="clr"></div>
+
+
+    <!-- Start Nav Menu -->
+    <Section id="nav-menu">
+        <div class="nav-menu-inner">
+            <div class="nav-menu-up">
+                <div class="n-m-l">
+                    <img src="./images/SVG/logo.svg" alt="logo">
+                    <span>Yayoi</span>
+                </div>
+
+                <div class="n-m-r">
+                    <button id="nav-menu-close"><i class="fa-solid fa-xmark"></i></button>
+                </div>
+            </div>
+
+            <div class="nav-menu-line"></div>
+
+            <ul class="nav-menu-list">
+                <li><a href="#" class="n-m-list-active">Home</a></li>
+                <li><a href="./menu.html">Menu</a></li>
+                <li><a href="./reservation.html">Reservations</a></li>
+                <li><a href="./private-event.html">Private Events</a></li>
+                <li><a href="./gallery.html">Gallery</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+            </ul>
+
+            <div class="nav-menu-line"></div>
+
+            <div class="nav-menu-bottom">
+                <img src="./images/SVG/sec_1.svg" alt="">
+            </div>
+
+            <div class="nav-menu-img">
+                <img src="./images/slid-menu.jpg" alt="slid-menu">
+            </div>
+        </div>
+    </Section>
+    <!-- Start Nav Menu -->
+
+
+    <div class="clr"></div>
+
+
+    <!-- Start Mobile Menu -->
+    <section id="mob-menu">
+        <div class="mob-login">
+            <span class="log-sec-toggle"><i class="fa-solid fa-circle-user"></i> Log In</span>
+
+            <button id="mob-menu-close-btn">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+        </div>
+
+        <ul class="mob-menu-list">
+            <li><a href="#" class="n-m-list-active">Home</a></li>
+            <li><a href="./menu.html">Menu</a></li>
+            <li><a href="./reservation.html">Reservations</a></li>
+            <li><a href="./private-event.html">Private Events</a></li>
+            <li><a href="./gallery.html">Gallery</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+        </ul>
+
+    </section>
+    <!-- End Mobile Menu -->
+
+
+    <div class="clr"></div>
+
+    <!-- Start Login Sec -->
+    <section id="login-sec">
+        <div class="login-sec-inner">
+            <div class="log-sec-up">
+                <button id="log-sec-close"><i class="fa-solid fa-xmark"></i></button>
+            </div>
+
+            <div class="log-sec-content">
+                <h2>Welcome to Yayoi</h2>
+
+                <form action="" id="login-form">
+                    <div class="ip-box-3">
+                        <label>Email</label>
+                        <input type="email" name="login-email" id="login-email" required>
+                    </div>
+
+                    <div class="ip-box-3">
+                        <label>Password</label>
+                        <input type="text" name="login-pass" id="login-pass" required>
+                    </div>
+
+                    <div class="ip-box-3">
+                        <button type="submit" name="login-btn">Login</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- End Login Sec -->
+
+    <div class="clr"></div>
+
+
+    <!-- Start Banner -->
+    <section id="banner" class="parallax-window" data-parallax="scroll" data-image-src="./images/banner.jpg">
+        <div class="banner-container wow animated fadeIn">
+            <div class="banner-svg">
+                <img src="./images/SVG/banner.svg" alt="banner.svg">
+            </div>
+
+            <h1 class="banner-head">Welcome to Yayoi</h1>
+
+            <p class="banner-para">CONTEMPORARY JAPANESE CUISINE</p>
+
+            <a href="./menu.html" class="sec-btn">MENU</a>
+        </div>
+    </section>
+    <!-- End Banner -->
+
+
+    <div class="clr"></div>
+
+
+    <!-- Start About -->
+    <section id="about">
+        <div class="container">
+            <div class="ab-inner wow animated fadeIn">
+                <div class="ab-svg">
+                    <img src="./images/SVG/sec_1.svg" alt="">
+                </div>
+
+                <p class="ab-text">
+                    Inspired by traditional flavors, Yayoi offers a fresh, creative and respectful interpretation of
+                    Japanese cuisine.
+                </p>
+
+                <a href="./reservation.html" class="sec-btn">BOOK A TABLE</a>
+
+                <img src="./images/bt-1.jpg" class="ab-img wow animated fadeInUp" alt="About Image">
+
+                <div class="ab-svg-bottom">
+                    <img src="./images/SVG/down_arrow.svg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End About -->
+
+
+    <div class="clr"></div>
+
+
+    <!-- Start Private Event Section -->
+    <section id="pe-sec">
+        <div class="container">
+            <div class="pe-inner wow animated fadeIn">
+                <div class="pe-image wow animated fadeInLeft">
+                    <img src="./images/pe-1.jpg" alt="pe-1">
+                </div>
+
+                <div class="pe-text wow animated fadeInRight">
+                    <div class="pe-svg">
+                        <img src="./images/SVG/sec_2.svg" alt="">
+                    </div>
+
+                    <h2 class="pe-head">
+                        Your Perfect Destination for Any Occasion
+                    </h2>
+
+                    <p class="pe-para">
+                        I'm a paragraph. Click here to add your own text and edit me. I’m a great place for you to tell
+                        a story and let your
+                        users know a little more about you.
+                    </p>
+
+                    <a href="./private-event.html" class="sec-btn">PRIVATES EVENTS</a>
+
+                    <ul class="pe-meta">
+                        <li>
+                            <span>Address</span>
+                            500 Terry Francine Street <br>
+                            San Francisco, CA 94158
+                        </li>
+
+                        <li>
+                            <span>Opening Hours</span>
+                            Mon - Fri: 8am - 8pm <br>
+                            ​​Saturday: 9am - 7pm <br>
+                            ​Sunday: 9am - 8pm
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Private Event Section -->
+
+
+    <div class="clr"></div>
+
+
+    <!-- Start Banner -->
+    <section id="menu-sec" class="parallax-window" data-parallax="scroll" data-image-src="./images/b-2.jpg">
+        <div class="menu-sec-container">
+            <h1 class="menu-sec-head">Catch of the Day From the Japanese fish market</h1>
+
+            <p class="menu-sec-para">I'm a paragraph. Click here to add your own text and edit me. I’m a great place for
+                you to tell a story and let your
+                users know a little more about you.
+            </p>
+
+            <a href="./menu.html" class="sec-btn">OUR MENU</a>
+        </div>
+    </section>
+    <!-- End Banner -->
+
+
+    <div class="clr"></div>
+
+
+    <!-- Start Service Section -->
+    <section id="service">
+        <div class="container">
+            <div class="service-inner wow animated fadeIn">
+                <div class="rat">
+                    <div class="rat-text wow animated fadeInLeft">
+                        <div class="rat-svg">
+                            <img src="./images/SVG/sec_3.svg" alt="">
+                        </div>
+
+                        <h2 class="rat-head">
+                            Reserve a Table
+                        </h2>
+
+                        <p class="rat-para">
+                            To help us find the best table for you, select the preferred party size, date, and time of
+                            your reservation.
+                        </p>
+
+                        <form action="" class="rat-form">
+                            <div class="ip-box-1">
+                                <label>Party size</label>
+                                <select name="rat-guests" id="rat-guests">
+                                    <option value="1">1 guest</option>
+                                    <option value="2" selected>2 guests</option>
+                                    <option value="3">3 guests</option>
+                                    <option value="4">4 guests</option>
+                                    <option value="5">5 guests</option>
+                                    <option value="6">6 guests</option>
+                                </select>
+                            </div>
+
+                            <div class="ip-box-1">
+                                <label for="">Date</label>
+                                <input type="date" name="rat-date" id="rat-date">
+                            </div>
+
+                            <div class="ip-box-1">
+                                <label>Time</label>
+                                <select name="rat-time" id="">
+                                    <option value="11:15 AM" selected>11:15 AM</option>
+                                    <option value="11:30 AM">11:30 AM</option>
+                                    <option value="11:45 AM">11:45 AM</option>
+                                    <option value="12:00 PM">12:00 PM</option>
+                                    <option value="12:15 PM">12:15 PM</option>
+                                    <option value="12:30 PM">12:30 PM</option>
+                                    <option value="12:45 PM">12:45 PM</option>
+                                    <option value="01:00 PM">01:00 PM</option>
+                                    <option value="01:15 PM">01:15 PM</option>
+                                    <option value="01:30 PM">01:30 PM</option>
+                                    <option value="01:45 PM">01:45 PM</option>
+                                    <option value="02:00 PM">02:00 PM</option>
+                                    <option value="02:15 PM">02:15 PM</option>
+                                    <option value="02:30 PM">02:30 PM</option>
+                                    <option value="02:45 PM">02:45 PM</option>
+                                    <option value="03:00 PM">03:00 PM</option>
+                                    <option value="03:15 PM">03:15 PM</option>
+                                    <option value="03:30 PM">03:30 PM</option>
+                                    <option value="03:45 PM">03:45 PM</option>
+                                    <option value="04:00 PM">04:00 PM</option>
+                                    <option value="04:15 PM">04:15 PM</option>
+                                    <option value="04:30 PM">04:30 PM</option>
+                                    <option value="04:45 PM">04:45 PM</option>
+                                    <option value="05:00 PM">05:00 PM</option>
+                                    <option value="05:15 PM">05:15 PM</option>
+                                    <option value="05:30 PM">05:30 PM</option>
+                                    <option value="05:45 PM">05:45 PM</option>
+                                    <option value="06:00 PM">06:00 PM</option>
+                                    <option value="06:15 PM">06:15 PM</option>
+                                    <option value="06:30 PM">06:30 PM</option>
+                                    <option value="06:45 PM">06:45 PM</option>
+                                    <option value="07:00 PM">07:00 PM</option>
+                                    <option value="07:15 PM">07:15 PM</option>
+                                    <option value="07:30 PM">07:30 PM</option>
+                                    <option value="07:45 PM">07:45 PM</option>
+                                    <option value="08:00 PM">08:00 PM</option>
+                                    <option value="08:15 PM">08:15 PM</option>
+                                    <option value="08:30 PM">08:30 PM</option>
+                                    <option value="08:45 PM">08:45 PM</option>
+                                    <option value="09:00 PM">09:00 PM</option>
+                                    <option value="09:15 PM">09:15 PM</option>
+                                    <option value="09:30 PM">09:30 PM</option>
+                                    <option value="09:45 PM">09:45 PM</option>
+                                    <option value="10:00 PM">10:00 PM</option>
+                                </select>
+                            </div>
+
+                            <div class="ip-box-1">
+                                <button type="submit" name="rat-submit">FIND A TABLE</button>
+                            </div>
+                        </form>
+                    </div>
+
+                    <div class="rat-image wow animated fadeInRight">
+                        <img src="./images/rt-1.jpg" alt="rt-1">
+                    </div>
+                </div>
+
+                <div class="ser-mid wow animated fadeInUp">
+                    <div class="ser-mid-inner">
+                        <h2>What Our Diners Say About Us</h2>
+                        <div class="ser-svg">
+                            <img src="./images/SVG/sec_1.svg" alt="sec_1">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial wow fadeIn">
+                    <div class="test-box">
+                        <p>“I'm a testimonial. Click to edit me and add text that says something nice about you and your
+                            services.”
+                        </p>
+
+                        <h5 class="wow animated fadeInRight">Fay Salinas</h5>
+                    </div>
+
+                    <div class="test-box test-box-2">
+                        <p>“I'm a testimonial. Click to edit me and add text that says something nice about you and your
+                            services. Let your
+                            customers review you and tell their friends how great you are.”
+                        </p>
+
+                        <h5 class="wow animated fadeInRight" data-wow-delay=".3s">Erika Huff</h5>
+                    </div>
+
+                    <div class="test-box">
+                        <p>“I'm a testimonial. Click to edit me and add text that says something nice about you and your
+                            services.”
+                        </p>
+
+                        <h5 class="wow animated fadeInRight" data-wow-delay=".5s">Zakir Gregory</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Service Section -->
+
+
+    <div class="clr"></div>
+
+
+    <!-- Start Empty Img Section -->
+    <section id="emty-img" class="parallax-window" data-parallax="scroll" data-image-src="./images/b-3.jpg">
+    </section>
+    <!-- End Empty Img Section -->
+
+
+    <div class="clr"></div>
+
+
+    <!-- Start Footer -->
+    <footer id="footer">
+        <section id="footer-top">
+            <div class="container wow animated fadeInUp">
+                <div class="footer-top-inner">
+                    <div class="footer-logo">
+                        <a href="./index.html"><img src="./images/SVG/logo.svg" alt="logo"></a>
+                    </div>
+                    <div class="footer-brand-logo">
+                        <a href="./index.html">Yayoi</a>
+                    </div>
+
+                    <p>CONTEMPORARY JAPANESE CUISINE</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="footer-mid">
+            <div class="container">
+                <div class="footer-mid-inner">
+                    <div class="footer-mid-l wow animated fadeInLeft">
+                        <h6>Subscribe to our newsletter for updates and special deals.</h6>
+
+                        <form action="" name="send-email-form" class="send-email-form">
+                            <div class="ip-box-2">
+                                <label>Email*</label>
+                                <input type="email" name="send-email">
+                            </div>
+
+                            <button type="submit" name="send-email-btn">Submit</button>
+                        </form>
+                    </div>
+
+                    <div class="footer-mid-r wow animated fadeInRight">
+                        <div class="footer-social">
+                            <a href="#">Instagram</a>
+                            <a href="#">Facebook</a>
+                            <a href="#">Twitter</a>
+                        </div>
+
+                        <p>500 Terry Francine Street, <br>
+                            San Francisco <br>
+                            123-456-7890 <br>
+                            info@mysite.com
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="footer-bottom">
+            <div class="container wow animated fadeInUp">
+                <div class="footer-bottom-inner">
+                    <p class="footer-copy">&copy; 2035 by Yayoi. Powered and secured by <a href="./index.html">Nayan Maity</a></p>
+                </div>
+            </div>
+        </section>
+    </footer>
+    <!-- End Footer -->
+
+
+    <div class="clr"></div>
+
+
+
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/parallax.js/1.4.2/parallax.min.js"></script>
+    <script src="./JS/wow.min.js"></script>
+    <script src="./JS/script.js"></script>
+</body>
+
+</html>
